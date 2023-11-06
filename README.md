@@ -15,7 +15,7 @@ https://pan.baidu.com/s/1UuYPoC4M8ky0FxgrCSPEow
 We provide saliency maps of our BMANet on two datasets in './BMANet/Outputs/pred/BMANet/EORSSD' and './BMANet/Outputs/pred/BMANet/ORSSD'.  
 
 We also provide saliency maps of ![all compared methods](https://pan.baidu.com/s/1cAdNh3Z8-l-LNM3rqogG4g) (code: cebj) on two datasets.  
-(images/Qualitative Evaluation.png)    
+![](images/Qualitative Evaluation.png)    
 # Training  
 1. Comment out line 64 of run.py like #self.net.load_state_dict......  
 2. Comment out line 186 of run.py like #run.test() and ensure that the run.train() statement is executable 
